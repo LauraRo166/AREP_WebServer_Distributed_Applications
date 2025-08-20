@@ -25,7 +25,7 @@ It demonstrates how to handle HTTP requests (GET/POST), serve static resources, 
    ```
 4. Should look something like this:
     
-{Imagen de build}
+<img width="1159" height="163" alt="image" src="https://github.com/user-attachments/assets/67c14325-9b78-46d5-b69f-ab904455eb3a" />
 
 ## ▶️ How to Run
 
@@ -44,6 +44,8 @@ It demonstrates how to handle HTTP requests (GET/POST), serve static resources, 
    ```
    http://localhost:35000/index.html
    ```
+   <img width="1920" height="979" alt="image" src="https://github.com/user-attachments/assets/945f3de4-16e9-4f43-8b86-cf8d7db51f3e" />
+
    And you can try other resources stored in the resources folder, for example:
    ```
    perrito.jpg
@@ -52,10 +54,20 @@ It demonstrates how to handle HTTP requests (GET/POST), serve static resources, 
    ```
    http://localhost:35000/perrito.jpg
    ```
+   <img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/da7748f4-36cb-4f3d-9e2d-21cd830b1ee0" />
+
+4. Additionally, when you enter your name in the first option, the server will respond with a greeting with a get method. Like this:
+
+   <img width="1920" height="914" alt="image" src="https://github.com/user-attachments/assets/ec1a5cb0-011b-481f-b2ac-fdfa7d67963d" />
+
+5. And with the second option the server will return what was written with a post method. Like this: 
+
+   <img width="1920" height="909" alt="image" src="https://github.com/user-attachments/assets/94533ed2-74b1-4727-8180-88e595b0aca2" />
+
 
 ## 🏗️ Architecture
 
-{Imagen de arquitectura}
+<img width="671" height="261" alt="Architecture" src="https://github.com/user-attachments/assets/9f82ce77-c5d2-40b7-b565-52ce494bb432" />
 
 The architecture of this prototype follows a client-server model where the main components are:
 
@@ -105,6 +117,7 @@ To run the tests:
 
 Should look something like this:
 
+<img width="1179" height="291" alt="image" src="https://github.com/user-attachments/assets/5b5ee65a-6ecc-4b32-a873-038a251cafe0" />
 
 ## 👩‍💻 Author
 
