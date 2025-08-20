@@ -25,7 +25,7 @@ public class HttpServerTest {
         serverThread.start();
 
         try {
-            Thread.sleep(1000); // esperar a que el server arranque
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -69,6 +69,6 @@ public class HttpServerTest {
 
     @AfterAll
     public void stopServer() throws Exception {
-        serverThread.interrupt(); // mata el hilo del server
+        serverThread.interrupt();
     }
 }
