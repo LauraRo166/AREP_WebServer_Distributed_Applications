@@ -59,7 +59,7 @@ public class HttpServerTest {
     public void shouldReturnRestPost() throws Exception {
         URL url = new URL("http://localhost:35000/app/hello?name=Laura");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        connection.setRequestMethod("GET");
+        connection.setRequestMethod("POST");
 
         int responseCode = connection.getResponseCode();
         assertEquals(201, responseCode);
