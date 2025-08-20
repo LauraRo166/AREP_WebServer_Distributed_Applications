@@ -104,7 +104,7 @@ public class HttpServer {
         if ("GET".equals(method)) {
             String contentType = getContentType(requestPath);
 
-            if (requestPath.startsWith("/app")) {
+            if (requestPath.startsWith("/app/hello")) {
                 String outputLine = new RestService().responseGET(requestUri);
                 out.println(outputLine);
 
@@ -121,7 +121,7 @@ public class HttpServer {
             }
 
         } else if ("POST".equals(method)) {
-            if (requestPath.startsWith("/app/hello")) {
+            if (requestPath.startsWith("/app/hellopost")) {
                 String outputLine = new RestService().responsePOST(requestUri);
                 out.println(outputLine);
             }

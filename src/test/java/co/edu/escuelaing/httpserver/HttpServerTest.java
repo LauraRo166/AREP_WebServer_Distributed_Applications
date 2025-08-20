@@ -45,7 +45,7 @@ public class HttpServerTest {
 
     @Test
     public void shouldReturnRestGet() throws Exception {
-        URL url = new URL("http://localhost:35000/app?name=Laura");
+        URL url = new URL("http://localhost:35000/app/hello?name=Laura");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
 
@@ -57,7 +57,7 @@ public class HttpServerTest {
 
     @Test
     public void shouldReturnRestPost() throws Exception {
-        URL url = new URL("http://localhost:35000/app/hello?name=Laura");
+        URL url = new URL("http://localhost:35000/app/hellopost?name=Laura");
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("POST");
 

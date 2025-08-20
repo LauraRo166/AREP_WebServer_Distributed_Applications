@@ -20,7 +20,7 @@ function sendGet() {
 }
 
 function sendPost() {
-    let nameVar = document.getElementById("nameGet").value;
+    let nameVar = document.getElementById("namePost").value;
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function () {
         try {
